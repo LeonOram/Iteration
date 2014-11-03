@@ -1,0 +1,7 @@
+OUTPUT please enter a number
+max_number ← USERINPUT
+FOR count ← 1 TO max_number
+	square_int = count ** 2
+	square_string = string(square_int)
+	square_print = square_print + " " + square_string
+OUTPUT square_print
